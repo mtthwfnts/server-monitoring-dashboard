@@ -3,15 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Login from './pages/Login';
 
 function App() {
-  return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Server Monitoring Dashboard
-      </h1>
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
